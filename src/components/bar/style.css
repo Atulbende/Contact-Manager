@@ -1,0 +1,48 @@
+.bg{
+    background-color: #eee;
+    padding:0px;
+    margin:0px;
+    height: 3.5em;
+    top:3.5em;
+    z-index: 1000;
+    position: sticky;
+}
+.bc{
+    list-style: none;
+    float:left;
+}
+.menus{
+    float: right;
+    list-style: none;
+}
+.menus  ul{
+    list-style: none;
+    right:0;
+}
+.menus li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    color:black;
+    border: 1px solid rgb(197 197 197);
+    line-height: 30px;
+    border-radius: 20px;
+    padding:5px;
+    margin-left:10px;
+    cursor: pointer;
+}
+.menus ul li:hover{
+    background-color: #00000000;
+    background-color: rgb(13 110 253);
+    color:white;
+}
+._count{
+    margin-top: -0.5rem;
+    margin-left: -1.2rem;
+    background: #007bff !important;
+    position: absolute;
+    color: white;
+    width: 20px;
+    height: 25px;
+    border-radius: 100% 100% 00%;
+}

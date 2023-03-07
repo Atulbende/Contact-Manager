@@ -1,0 +1,15 @@
+
+.navbar-nav {
+    float: right;
+}
+.bg-theam{
+    background-color: #212d78;
+}
+.user-color{
+color: #212d78;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 20px;
+    text-align: center;
+}

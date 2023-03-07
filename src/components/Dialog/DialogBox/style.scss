@@ -1,0 +1,49 @@
+@import "../../../asset/_variable.scss";
+.dialog{
+    width:30%;
+    height: 300px;
+    background-color: $body-color;
+    overflow-y: hidden;
+    height: calc(20%);height: -webkit-calc(20%);height: -moz-calc(20%);
+    position: absolute;
+    top:35%;
+    left:35%;
+    box-shadow: 7px 7px 20px;
+    border-radius: 15px 15px ;
+    transition-duration: 2s;
+}
+.close-button{
+    position:absolute;
+    right:0%;
+    margin-top: 0px;
+    border-radius: 15px 15px 15px 0px;
+    box-shadow: 2px 2px 5px;
+    border:none;
+}
+.dialog-title{
+    padding: 5px;
+    position: fixed;
+    width: calc(30%);
+    background-color: #5b76e3;
+    color:white;
+    border-radius: 15px 15px;
+}
+.dialog-footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    text-align: right;
+    padding: 7px;
+}
+.dialog-body{
+    padding:50px;
+}
+.orverlay{
+position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}

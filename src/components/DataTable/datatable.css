@@ -1,0 +1,33 @@
+
+
+.dataTables_wrapper .dataTables_filter {
+float: left;
+margin-top: 1px;
+text-align: left;
+padding-top: 5px;
+border-radius: 0px 0px 00px 0px;
+border: 1px solid #a49595;
+text-decoration: none;
+width: 100%;
+}
+.dt-buttons {
+    position: relative;
+    float: right;
+}
+.dataTables_wrapper .dataTables_filter input{
+color:inherit;
+border-radius: 50px;
+}
+
+.odd{
+    cursor: pointer;
+   
+}
+.even{
+    cursor: pointer;
+  
+}
+.link-primary{
+    color:#0d6efd;
+    text-decoration:underline;
+}
